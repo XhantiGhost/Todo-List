@@ -56,11 +56,10 @@ button.addEventListener()
         todo.addEventListener('transitionend', function () {
             todo.remove();
         });
-       
     }
 
-    //Check mark
 
+    //Check mark
     if(item.classList[0] === "complete-btn"){
         const todo = item.parentElement;
         todo.classList.toggle('completed');
